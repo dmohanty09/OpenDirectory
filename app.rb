@@ -68,7 +68,6 @@ post '/root/*' do
 end
 
 post '/root' do
-	binding.pry
 	path = 'root'
 	sd = SubDirectory.new(path: params[:name], name: params[:name], timestamp: Time.now)
 	sdP = SubDirectory.where(path: path).first
