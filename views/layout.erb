@@ -29,7 +29,13 @@
                   <% urlAppendArray << urlAppend %>
                   <% urlAppend += "../" %>
                 <% end %>
-                <li><a href="<%= urlAppendArray[url_frag.length-2] %>">root</a></li>
+                <li>
+                  <% if url_frag.length >= 2 %>
+                    <a href="<%= urlAppendArray[url_frag.length-2] %>">root</a>
+                  <% else %>
+                    <a href="../root">root</a>
+                  <% end %>
+                </li>
                 <% (0..url_frag.length-2).each do |i| %>
                   <li><a href="<%= urlAppendArray[url_frag.length-2-i] + url_frag[i] %>"><%= url_frag[i] %></a></li>
                 <% end %>
