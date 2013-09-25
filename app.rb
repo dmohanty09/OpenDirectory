@@ -53,3 +53,12 @@ post '/root/*' do
 	sd.save!
 	redirect '/root/' + path
 end
+
+post '/root' do
+	path = 'root'
+	sd = SubDirectory.new(path: path +"/"+ params[:name], name: params[:name], timestamp: Time.now)
+	sdP = SubDirectory.where(path: path).first
+	sd.parents << sdP
+	sd.save!
+	redirect '/root'
+end
