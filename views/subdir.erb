@@ -1,0 +1,22 @@
+<div class="row" style="margin-top: 30px;">
+	<div class="col-lg-8 list-group">
+                <a href="#" class="list-group-item active">
+                  Feed
+                </a>
+                <% leafs.each do |leaf| %>
+                	<a href="#" class="list-group-item"><%= leaf.filename %><img src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>"></a>
+                	
+                <% end %>
+	</div>
+	<div class="col-lg-4">
+		<div class="list-group">
+			<% children.each do |child| %>
+			<a  class="list-group-item" href="<%= name %>/<%= child.name %>"><%= child.name %></a>
+			<% end %>
+		</div>
+		<form action="<%= name %>" method="post">
+			<input type="text" name="name" class="form-control" placeholder="Branch Name">
+			<input type="submit" value="Create Branch" class="btn btn-primary">
+		</form>
+	</div>
+</div>

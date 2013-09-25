@@ -1,0 +1,9 @@
+Root
+<table border="1">
+	<tr>
+		<th>Children</th>
+	</tr>
+	<% paths.each do |path| %>
+		<tr><td><a href="r/<%= path %>"><%= path %></a></td></tr>
+	<% end %>
+</table>
