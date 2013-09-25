@@ -8,6 +8,19 @@ require_relative './sub_directory'
 require_relative './leaf'
 
 #binding.pry
+get '/root/*/*-delete' do
+	path = params[:splat][0] + '/' + params[:splat][1]
+	sd = SubDirectory.where(path: path).first
+	sd.destroy
+	redirect '/root/' + params[:splat][0]
+end
+
+get '/root/*-delete' do
+	path = params[:splat][0]
+	sd = SubDirectory.where(path: path).first
+	sd.destroy
+	redirect '/root'
+end
 
 get '/root/' do
 	redirect "/root"
@@ -55,8 +68,9 @@ post '/root/*' do
 end
 
 post '/root' do
+	binding.pry
 	path = 'root'
-	sd = SubDirectory.new(path: path +"/"+ params[:name], name: params[:name], timestamp: Time.now)
+	sd = SubDirectory.new(path: params[:name], name: params[:name], timestamp: Time.now)
 	sdP = SubDirectory.where(path: path).first
 	sd.parents << sdP
 	sd.save!
