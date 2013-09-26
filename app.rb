@@ -52,7 +52,7 @@ end
 post '/root/*-upload' do
 	path = params[:splat][0]
 	f = params[:file]
-	lf = Leaf.new(type: f[:type] , filename: f[:filename], description: f[:description], timestamp: Time.now)
+	lf = Leaf.new(type: f[:type] , filename: f[:filename], description: params["description"], timestamp: Time.now)
 
 	File.open('public/uploads/' + lf.id + "_" + f[:filename], "wb") do |file|
     	file.write(f[:tempfile].read)

@@ -6,7 +6,6 @@
                 <% leafs.each do |leaf| %>
                 	<a style="text-align:center;" href="#" class="list-group-item"><img style="box-shadow: 0 0 5px #888;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>">
                 		<br/>
-                		<%= leaf.filename %>
                 		<%= leaf.description %>
                 	</a>
                 <% end %>
