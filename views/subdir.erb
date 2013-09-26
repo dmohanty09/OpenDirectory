@@ -4,8 +4,10 @@
                   Feed
                 </a>
                 <% leafs.each do |leaf| %>
-                	<a href="#" class="list-group-item"><%= leaf.filename %><img src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>"></a>
-                	
+                	<a style="text-align:center;" href="#" class="list-group-item"><img style="box-shadow: 0 0 5px #888;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>">
+                		<br/>
+                		<%= leaf.filename %>
+                	</a>
                 <% end %>
 	</div>
 	<div class="col-lg-4">
