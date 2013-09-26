@@ -38,9 +38,15 @@ end
 get '/root/*' do
 	path = params[:splat][0]
 	sd = SubDirectory.where(path: path).first
-	#black_hole = SubDirectory.where(path: /^#{path}/i)
-	#binding.pry
-	erb :subdir, :locals => {:name => sd.name,:path => sd.path,:parents => sd.parents,:children => sd.children, :url_frag => sd.path.split("/"), :leafs => sd.leafs.desc(:timestamp)}
+	black_hole = SubDirectory.where(path: /^#{path}/i)
+	leafz = []
+	black_hole.each do |subdir|
+		subdir.leafs.each do |leaf|
+			leafz << leaf
+		end
+	end
+	leaf_collection = leafz.sort_by { |hsh| hsh[:timestamp] || Time.now}.reverse
+	erb :subdir, :locals => {:name => sd.name,:path => sd.path,:parents => sd.parents,:children => sd.children, :url_frag => sd.path.split("/"), :leafs => leaf_collection}
 end
 
 post '/root/*-upload' do
