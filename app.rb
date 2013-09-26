@@ -28,7 +28,7 @@ end
 
 get '/root' do
 	sd = SubDirectory.where(name: "root").first
-	erb :subdir, :locals => {:name => sd.name,:path => sd.path,:parents => sd.parents,:children => sd.children,:url_frag => sd.path.split("/"), :leafs => sd.leafs.desc(:timestamp)}
+	erb :subdir, :locals => {:name => sd.name,:path => sd.path,:parents => sd.parents,:children => sd.children,:url_frag => sd.path.split("/"), :leafs => Leaf.all.desc(:timestamp)}
 end
 
 get '/root/*/' do
@@ -45,7 +45,7 @@ get '/root/*' do
 			leafz << leaf
 		end
 	end
-	leaf_collection = leafz.sort_by { |hsh| hsh[:timestamp] || Time.now}.reverse
+	leaf_collection = leafz.sort_by { |hsh| hsh[:timestamp] || Time.new(2012)}.reverse
 	erb :subdir, :locals => {:name => sd.name,:path => sd.path,:parents => sd.parents,:children => sd.children, :url_frag => sd.path.split("/"), :leafs => leaf_collection}
 end
 
