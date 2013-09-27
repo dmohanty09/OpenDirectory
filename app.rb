@@ -81,3 +81,7 @@ post '/root' do
 	sd.save!
 	redirect '/root'
 end
+
+get '/*' do
+  redirect '/root'
+end
