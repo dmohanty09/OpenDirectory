@@ -5602,7 +5602,7 @@ a.thumbnail:focus {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 5px #888;
 }
 

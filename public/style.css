@@ -22,7 +22,7 @@ body {
 }
 
 a.list-group-item:hover{
-    background-color: whitesmoke;
+    background-color: #8BC84B;
 }
 
 a.list-group-item {
