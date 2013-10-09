@@ -21,3 +21,12 @@ body {
     background-image:url('/sos.png');
 }
 
+a.list-group-item:hover{
+    background-color: whitesmoke;
+}
+
+a.list-group-item {
+    float:left;
+    margin: 4px;
+}
+
