@@ -2,3 +2,9 @@
 [Sat Sep 21 11:03:56 2013] [error] [client 70.114.201.2] File does not exist: /home/ubuntu/OpenDirectory/public/root
 [Sat Sep 21 11:04:00 2013] [error] [client 70.114.201.2] File does not exist: /home/ubuntu/OpenDirectory/public/root
 [Sat Sep 21 11:04:04 2013] [error] [client 70.114.201.2] Directory index forbidden by Options directive: /home/ubuntu/OpenDirectory/public/
+[Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root
+[Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root
+[Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root
+[Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root
+[Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root
+[Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root

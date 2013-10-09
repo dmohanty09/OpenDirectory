@@ -16,7 +16,7 @@
 <div class="row" style="margin-top: 30px;">
 	<div class="col-lg-12 list-group">
                 <% leafs.each do |leaf| %>
-                	<a style="text-align:center;" href="#" class="list-group-item feed-panel"><img style="box-shadow: 0 0 5px #888;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>">
+                	<a style="text-align:center;" href="#" class="list-group-item feed-panel"><img style="box-shadow: 0 0 5px #888;max-height:256px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>">
                 		<br/>
                 		<%= leaf.description %>
                 	</a>
