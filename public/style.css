@@ -25,8 +25,10 @@ a.list-group-item:hover{
     background-color: #8BC84B;
 }
 
-a.list-group-item {
+.list-group-item {
     float:left;
     margin: 4px;
+    color: #555555;
+    padding: 4px 15px;
 }
 
