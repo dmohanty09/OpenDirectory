@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'mongoid'
 require 'pry'
+require 'net/http'
 #Mongoid.load!("mongoid.yml")
 Mongoid.load!("./mongoid.yml", :production)
 require_relative './sub_directory'
@@ -62,6 +63,11 @@ post '/root/*-upload' do
 	lf.sub_directory = node
 	lf.save!
 	redirect '/root/' + path
+end
+
+post '/root/*-link' do
+	uri = URI(params["link"])
+	Net::HTTP.get(uri)
 end
 
 post '/root/*' do

@@ -45,6 +45,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a class="btn" href="#uploadModal" data-toggle="modal">Upload</a></li>
+			<li><a class="btn" href="#linkModal" data-toggle="modal">Link</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="user">Admin <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="user">
@@ -84,6 +85,47 @@
              <label class="control-label" for="description"></label>
              <div class="controls">
               <input type="file" id="file" name="file" style="color: white;">
+             </div>
+            </div>
+           
+          </div>
+         </div>
+        </div>
+        <div class="modal-footer" style="margin-top: 0px;">
+            <div class="form-actions">
+             <button type="submit" class="btn btn-primary">Submit</button>
+             <button type="button" class="btn" data-dismiss="modal">Close</button>
+            </div>
+           
+        </div>
+        </form>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="linkModal" tabindex="-1" role="dialog" aria-labelledby="linkModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width: 230px;">
+      <div class="modal-content">
+        <div class="modal-header" style="box-shadow: 0 0 5px rgb(132, 199, 74);background-color: rgb(132, 199, 74);border-bottom-color: rgb(132, 199, 74);">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" style="color: white;">Link File</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+          <div class="span6">
+           <form class="form-horizontal" action="<%= name %>-link" method="post" enctype="multipart/form-data">
+             
+            <div class="control-group">
+             <label class="control-label" for="description">Description:</label>
+             <div class="controls">
+              <input type="text" class="input" id="link_description" name="description">    
+             </div>
+            </div>
+             
+            <div class="control-group">
+             <label class="control-label" for="description">URL:</label>
+             <div class="controls">
+              <input type="text" id="link" name="link" style="color: white;">
              </div>
             </div>
            
