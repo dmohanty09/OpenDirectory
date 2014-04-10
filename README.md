@@ -20,9 +20,13 @@ bundle install
 Preseed database:
 
 pry/irb:
+
 require 'mongoid'
+
 require_relative './sub_directory'
+
 Mongoid.load!("./mongoid.yml", :production)
+
 SubDirectory.new(path: 'root', name: 'root', timestamp: Time.now)
  
 Run:
