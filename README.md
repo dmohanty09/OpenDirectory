@@ -21,6 +21,8 @@ Preseed database:
 
 pry/irb:
 
+require 'rubygems'
+
 require 'mongoid'
 
 require_relative './sub_directory'
