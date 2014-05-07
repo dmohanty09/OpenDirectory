@@ -3,34 +3,22 @@ OpenDirectory
 
 OpenDirectory is a free public file system to help bring the world closer together...
 
+---------------------------------------------------------------
 Install Ruby:
-
 curl -sSL https://get.rvm.io | bash -s stable --ruby
+Install MongoDB
 
-Install/Start MongoDB
+---------------------------------------------------------------
+Use Gem which comes with Ruby to install bundler.
+	gem install bundler
 
-Install bundler:
+---------------------------------------------------------------
+Use Bundler to install all the gem dependencies the project requires. Make sure you are in the project directory.
+	bundle install
 
-gem install bundler
+---------------------------------------------------------------
+Once Mongo is running you need to preseed the database. To do this you need to run the preseed.rb script. 
 
-Install:
-
-bundle install
-
-Preseed database:
-
-pry/irb:
-
-require 'rubygems'
-
-require 'mongoid'
-
-require_relative './sub_directory'
-
-Mongoid.load!("./mongoid.yml", :production)
-
-SubDirectory.new(path: 'root', name: 'root', timestamp: Time.now).save!
- 
-Run:
-
-ruby config.ru
+---------------------------------------------------------------
+Lastly you need to run OpenDirectory.
+	ruby app.rb
