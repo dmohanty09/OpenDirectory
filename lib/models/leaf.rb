@@ -1,3 +1,5 @@
+require_relative './branch'
+
 class Leaf
   include Mongoid::Document
   belongs_to :sub_directory
