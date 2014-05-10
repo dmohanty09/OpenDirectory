@@ -1,22 +1,14 @@
 require 'sinatra'
 require_relative './models/leaf'
 
-get '/leaf' do
-	'foo'
-end
-
+#gets details of a leaf (description/comments)
 get '/leaf/:id' do
-	'foo'
 end
 
-post '/leaf/:id' do
-	'foo'
+#post comment on leaf associated with a user
+post '/leaf/:id/comment/:uid' do
 end
 
-put '/leaf/:id' do
-	'foo'
-end
-
-delete '/leaf/:id' do
-	'foo'
+#record an upvote/downvote on a leaf associated with a user
+post '/leaf/:id/vote/:uid' do
 end

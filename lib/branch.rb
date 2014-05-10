@@ -1,22 +1,14 @@
 require 'sinatra'
 require_relative './models/branch'
 
-get '/branch' do
-	'foo'
+#Gets a feed of leafs for a specific branch
+get '/branch/feed/:id' do
 end
 
-get '/branch/:id' do
-	'foo'
+#Creates a branch associated with a parent branch
+post '/branch/:id'
 end
 
-post '/branch/:id' do
-	'foo'
-end
-
-put '/branch/:id' do
-	'foo'
-end
-
-delete '/branch/:id' do
-	'foo'
+#Creates a leaf in a specific branch associated with a user
+post '/branch/:id/leaf/:uid'
 end
