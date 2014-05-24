@@ -6,9 +6,9 @@ get '/branch/feed/:id' do
 end
 
 #Creates a branch associated with a parent branch
-post '/branch/:id'
+post '/branch/:id' do
 end
 
 #Creates a leaf in a specific branch associated with a user
-post '/branch/:id/leaf/:uid'
+post '/branch/:id/leaf/:uid' do
 end

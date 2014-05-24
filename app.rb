@@ -11,3 +11,7 @@ require_relative './lib/user'
 get '/' do
   redirect '/index.html'
 end
+
+get '/angular' do
+  redirect '/angular.html'
+end
