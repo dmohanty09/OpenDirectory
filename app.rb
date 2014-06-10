@@ -67,7 +67,15 @@ end
 
 post '/root/*-link' do
 	uri = URI(params["link"])
-	Net::HTTP.get(uri)
+	html = Net::HTTP.get(uri)
+	# require 'nokogiri'
+	# require 'pry'
+	# binding.pry
+	html
+end
+
+def make_absolute( href, root )
+  URI.parse(root).merge(URI.parse(href)).to_s
 end
 
 post '/root/*' do
