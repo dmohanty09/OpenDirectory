@@ -66,12 +66,13 @@ post '/root/*-upload' do
 end
 
 post '/root/*-link' do
-	uri = URI(params["link"])
-	html = Net::HTTP.get(uri)
-	# require 'nokogiri'
-	# require 'pry'
-	# binding.pry
-	html
+	path = params[:splat][0]
+	uri = params["link"]
+	lf = Leaf.new(type: 'link' , filename: uri, description: params["description"], timestamp: Time.now)
+	node = SubDirectory.where(path: path).first
+	lf.sub_directory = node
+	lf.save!
+	redirect '/root/' + path
 end
 
 def make_absolute( href, root )

@@ -35,7 +35,6 @@ a.list-group-item:hover{
 
 .list-group{
     float: left;
-    width: auto;
 }
 
 .form-control {
@@ -50,4 +49,8 @@ a.list-group-item:hover{
 
 .navbar {
 margin-bottom: 0px;
+}
+
+.subdir-list{
+    float:left;
 }

@@ -2,7 +2,7 @@
 	<div class="col-lg-8">
 		<div class="list-group">
 			<% children.each do |child| %>
-			<a class="list-group-item" href="<%= name %>/<%= child.name %>"><%= child.name %></a>
+			<a class="list-group-item  subdir-list" href="<%= name %>/<%= child.name %>"><%= child.name %></a>
 			<% end %>
 		</div>
 	</div>
@@ -19,7 +19,7 @@
                 <% leafs.each do |leaf| %>
                 	<div style="text-align:center;" class="list-group-item feed-panel">
 					<%= leaf.description %><br/>
-                	<img style="box-shadow: 0 0 5px #888;max-height:256px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>">
+                	<img style="box-shadow: 0 0 5px #888;max-height:256px;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>">
                 		<br/>
                 		<a href="/root/<%= leaf.sub_directory.path %>">/root/<%= leaf.sub_directory.path %></a>
                 	</div>
