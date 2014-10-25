@@ -66,8 +66,17 @@ post '/root/*-upload' do
 end
 
 post '/root/*-link' do
-	uri = URI(params["link"])
-	Net::HTTP.get(uri)
+	path = params[:splat][0]
+	uri = params["link"]
+	lf = Leaf.new(type: 'link' , filename: uri, description: params["description"], timestamp: Time.now)
+	node = SubDirectory.where(path: path).first
+	lf.sub_directory = node
+	lf.save!
+	redirect '/root/' + path
+end
+
+def make_absolute( href, root )
+  URI.parse(root).merge(URI.parse(href)).to_s
 end
 
 post '/root/*' do

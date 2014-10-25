@@ -2,7 +2,7 @@
 	<div class="col-lg-8">
 		<div class="list-group">
 			<% children.each do |child| %>
-			<a class="list-group-item" href="<%= name %>/<%= child.name %>"><%= child.name %></a>
+			<a class="list-group-item  subdir-list" href="<%= name %>/<%= child.name %>"><%= child.name %></a>
 			<% end %>
 		</div>
 	</div>
@@ -13,15 +13,19 @@
 		</form>
 	</div>
 </div>
-<div class="row" style="margin-top: 30px;">
-	<div class="col-lg-12 list-group">
-                <% leafs.each do |leaf| %>
-                	<div style="text-align:center;" class="list-group-item feed-panel">
+<div class="row">
+        <% leafs.each do |leaf| %>
+        	<div class="col-lg-12 list-group">
+            	<div class="col-lg-3"></div>
+            	<div class="col-lg-6">
+            		<div style="text-align:center;" class="list-group-item feed-panel">
 					<%= leaf.description %><br/>
-                	<img style="box-shadow: 0 0 5px #888;max-height:256px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>">
+            		<img style="box-shadow: 0 0 5px #888;max-height:256px;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>"/>
                 		<br/>
-                		<a style="float:right;" href="/root/<%= leaf.sub_directory.path %>">/root/<%= leaf.sub_directory.path %></a>
-                	</div>
-                <% end %>
+                		<a href="/root/<%= leaf.sub_directory.path %>">/root/<%= leaf.sub_directory.path %></a>
+            		</div>
+            	</div>
+            	<div class="col-lg-3"></div>
+        <% end %>
 	</div>
 </div>
