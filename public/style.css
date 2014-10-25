@@ -54,3 +54,7 @@ margin-bottom: 0px;
 .subdir-list{
     float:left;
 }
+
+.col-lg-6 {
+ width: auto; 
+}

@@ -14,16 +14,18 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-lg-3"></div>
-	<div class="col-lg-6 list-group">
-                <% leafs.each do |leaf| %>
-                	<div style="text-align:center;" class="list-group-item feed-panel">
+        <% leafs.each do |leaf| %>
+        	<div class="col-lg-12 list-group">
+            	<div class="col-lg-3"></div>
+            	<div class="col-lg-6">
+            		<div style="text-align:center;" class="list-group-item feed-panel">
 					<%= leaf.description %><br/>
-                	<img style="box-shadow: 0 0 5px #888;max-height:256px;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>">
+            		<img style="box-shadow: 0 0 5px #888;max-height:256px;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>"/>
                 		<br/>
                 		<a href="/root/<%= leaf.sub_directory.path %>">/root/<%= leaf.sub_directory.path %></a>
-                	</div>
-                <% end %>
+            		</div>
+            	</div>
+            	<div class="col-lg-3"></div>
+        <% end %>
 	</div>
-	<div class="col-lg-3"></div>
 </div>
