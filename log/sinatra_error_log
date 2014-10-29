@@ -8,3 +8,191 @@
 [Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root
 [Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root
 [Sun Sep 29 06:44:33 2013] [error] [client 70.114.201.2] Premature end of script headers: root, referer: http://ec2-54-200-64-251.us-west-2.compute.amazonaws.com/root
+[Wed Oct 09 09:56:00 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Thu Oct 10 09:50:24 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Wed Oct 16 17:47:31 2013] [error] [client 202.101.62.236] Invalid URI in request GET <title>JBoss By Max HTTP/1.1
+[Fri Oct 18 13:09:27 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Wed Oct 30 09:36:59 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Mon Nov 04 16:16:51 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Mon Nov 04 16:38:28 2013] [error] [client 173.254.235.114] request failed: error reading the headers
+[Mon Nov 04 17:00:34 2013] [error] [client 194.126.224.142] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Nov 04 19:35:34 2013] [error] [client 74.50.3.76] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Thu Nov 07 15:25:08 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Thu Nov 07 17:13:32 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Fri Nov 08 06:06:29 2013] [error] [client 91.121.162.189] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Nov 11 17:28:52 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Tue Nov 12 16:15:38 2013] [error] [client 92.240.68.153] request failed: error reading the headers
+[Sat Nov 23 07:39:53 2013] [error] [client 188.138.16.178] Invalid URI in request GET  HTTP/1.1
+[Mon Nov 25 12:51:47 2013] [error] [client 80.86.84.72] Invalid URI in request GET  HTTP/1.1
+[Tue Nov 26 12:05:45 2013] [error] [client 173.193.38.234] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Wed Nov 27 13:40:38 2013] [error] [client 89.136.120.205] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Nov 30 01:59:54 2013] [error] [client 92.240.68.152] request failed: error reading the headers
+[Sat Nov 30 19:57:49 2013] [error] [client 94.102.53.219] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sun Dec 01 21:03:46 2013] [error] [client 208.116.59.131] Premature end of script headers: cgi-bin
+[Wed Dec 04 02:12:06 2013] [error] [client 188.138.16.178] Invalid URI in request GET  HTTP/1.1
+[Wed Dec 04 21:56:57 2013] [error] [client 80.86.84.72] Invalid URI in request GET  HTTP/1.1
+[Sat Dec 07 01:53:55 2013] [error] [client 93.174.93.99] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Tue Dec 10 11:22:41 2013] [error] [client 85.17.155.196] Invalid URI in request GET  HTTP/1.1
+[Tue Dec 10 11:38:24 2013] [error] [client 94.102.52.147] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Dec 13 22:42:45 2013] [error] [client 83.133.121.137] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Dec 16 03:51:12 2013] [error] [client 89.136.120.205] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Dec 16 19:58:54 2013] [error] [client 85.17.155.196] Invalid URI in request GET  HTTP/1.1
+[Tue Dec 17 00:04:08 2013] [error] [client 192.241.153.154] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Thu Dec 19 22:06:56 2013] [error] [client 92.240.68.152] request failed: error reading the headers
+[Fri Dec 20 12:38:19 2013] [error] [client 72.167.113.216] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sat Dec 21 18:46:36 2013] [error] [client 80.86.84.72] Invalid URI in request GET  HTTP/1.1
+[Sat Dec 21 23:49:57 2013] [error] [client 89.136.120.205] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sun Dec 22 13:58:01 2013] [error] [client 91.121.90.166] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Mon Dec 23 23:51:01 2013] [error] [client 80.82.64.127] request failed: error reading the headers
+[Fri Jan 03 02:17:20 2014] [error] [client 72.167.113.216] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Wed Jan 08 00:02:37 2014] [error] [client 41.160.2.18] Invalid URI in request GET <title>phpMyAdmin HTTP/1.1
+[Tue Jan 14 00:18:31 2014] [error] [client 93.174.88.123] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Jan 17 18:56:50 2014] [error] [client 125.210.224.151] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sun Jan 19 15:56:37 2014] [error] [client 198.154.63.206] Premature end of script headers: cgi-bin
+[Thu Jan 23 21:28:19 2014] [error] [client 92.240.68.153] request failed: error reading the headers
+[Tue Jan 28 03:50:28 2014] [error] [client 210.5.46.32] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sat Feb 08 01:03:39 2014] [error] [client 64.31.16.26] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sat Feb 08 01:43:30 2014] [error] [client 192.95.39.237] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue Feb 11 07:09:48 2014] [error] [client 192.95.39.237] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Wed Feb 12 19:34:00 2014] [error] [client 92.240.68.152] request failed: error reading the headers
+[Mon Feb 17 21:22:21 2014] [error] [client 198.50.154.239] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Thu Feb 20 08:05:24 2014] [error] [client 208.167.229.142] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sat Mar 01 16:22:38 2014] [error] [client 219.232.48.158] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Tue Mar 04 15:23:35 2014] [error] [client 198.50.154.239] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Thu Mar 06 03:33:35 2014] [error] [client 80.82.64.117] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /admin/
+[Fri Mar 07 21:55:44 2014] [error] [client 208.167.229.142] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Wed Mar 12 11:41:50 2014] [error] [client 198.50.154.239] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Thu Mar 13 07:26:11 2014] [error] [client 69.162.64.99] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Thu Mar 13 14:40:12 2014] [error] [client 92.240.68.153] request failed: error reading the headers
+[Sat Mar 15 04:51:40 2014] [error] [client 198.50.154.239] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sat Mar 15 05:33:42 2014] [error] [client 95.45.252.5] Invalid URI in request GET /../ HTTP/1.1, referer: http://opendirectory.me/root
+[Mon Mar 24 20:51:11 2014] [error] [client 190.109.209.116] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue Mar 25 11:35:46 2014] [error] [client 198.50.128.244] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue Mar 25 17:11:22 2014] [error] [client 78.108.63.46] Premature end of script headers: cgi-bin
+[Wed Mar 26 09:38:04 2014] [error] [client 91.121.90.166] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Wed Mar 26 14:55:27 2014] [error] [client 72.9.104.242] Premature end of script headers: cgi-bin
+[Thu Mar 27 08:03:39 2014] [error] [client 72.9.104.242] Premature end of script headers: cgi-bin
+[Thu Mar 27 15:17:08 2014] [error] [client 109.169.80.17] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue Apr 01 19:00:07 2014] [error] [client 198.50.249.144] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue Apr 01 21:18:24 2014] [error] [client 92.240.68.152] request failed: error reading the headers
+[Sat Apr 05 00:34:13 2014] [error] [client 198.50.154.239] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Mon Apr 07 11:46:27 2014] [error] [client 93.174.93.62] request failed: error reading the headers
+[Tue Apr 08 11:51:24 2014] [error] [client 216.121.107.154] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Fri Apr 11 06:17:57 2014] [error] [client 109.73.169.27] Invalid URI in request GET <title>phpMyAdmin HTTP/1.1
+[Sat Apr 19 15:00:17 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Sat Apr 19 15:00:17 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Sat Apr 19 15:00:17 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Sat Apr 19 15:00:17 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Sat Apr 19 15:00:18 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Sat Apr 19 15:00:18 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Sun Apr 27 22:29:39 2014] [error] [client 115.254.9.30] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /webdav/
+[Sat May 03 15:09:34 2014] [error] [client 54.232.211.8] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sun May 18 10:52:39 2014] [error] [client 162.253.66.74] request failed: error reading the headers
+[Sun May 18 12:54:21 2014] [error] [client 203.124.106.78] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Mon May 19 19:16:35 2014] [error] [client 115.254.9.30] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /webdav/
+[Wed May 21 18:43:21 2014] [error] [client 183.60.244.37] Premature end of script headers: img
+[Wed May 21 23:42:33 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Wed May 21 23:42:33 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Wed May 21 23:42:33 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Wed May 21 23:42:33 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Wed May 21 23:42:33 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Wed May 21 23:42:33 2014] [error] [client 195.242.169.10] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Mon May 26 11:08:22 2014] [error] [client 203.124.106.78] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Tue May 27 10:24:41 2014] [error] [client 54.232.211.8] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sun Jun 01 23:58:01 2014] [error] [client 198.27.95.170] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Mon Jun 02 03:02:32 2014] [error] [client 115.254.9.30] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /webdav/
+[Mon Jun 02 03:29:42 2014] [error] [client 5.79.65.163] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Mon Jun 09 22:49:48 2014] [error] [client 115.254.9.30] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /webdav/
+[Mon Jun 16 21:08:59 2014] [error] [client 80.82.78.112] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /xmlrpc.php
+[Tue Jun 24 22:14:50 2014] [error] [client 162.253.66.76] request failed: error reading the headers
+[Fri Jun 27 20:43:52 2014] [error] [client 115.254.9.30] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /webdav/
+[Sat Jun 28 06:53:31 2014] [error] [client 72.18.204.35] client denied by server configuration: /home/ubuntu/OpenDirectory/public/.htpasswd
+[Sat Jun 28 06:53:31 2014] [error] [client 72.18.204.35] client denied by server configuration: /home/ubuntu/OpenDirectory/public/.htpasswd~
+[Tue Jul 01 07:55:54 2014] [error] [client 115.254.9.30] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /webdav/
+[Mon Jul 07 15:23:59 2014] [error] [client 198.50.231.190] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Mon Jul 07 23:56:42 2014] [error] [client 195.242.169.23] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Mon Jul 07 23:56:42 2014] [error] [client 195.242.169.23] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Mon Jul 07 23:56:42 2014] [error] [client 195.242.169.23] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Mon Jul 07 23:56:42 2014] [error] [client 195.242.169.23] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Mon Jul 07 23:56:43 2014] [error] [client 195.242.169.23] Invalid URI in request GET /../root HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Mon Jul 07 23:56:43 2014] [error] [client 195.242.169.23] Invalid URI in request GET /../ HTTP/1.1, referer: http://www.OPENDIRECTORY.ME/root
+[Mon Jul 14 04:34:26 2014] [error] [client 94.242.222.44] Invalid URI in request GET /../ HTTP/1.1
+[Fri Jul 18 14:16:04 2014] [error] [client 93.174.95.55] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /admin/config.php
+[Tue Aug 05 23:30:15 2014] [error] [client 89.248.160.214] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Wed Aug 06 02:51:42 2014] [error] [client 89.248.160.212] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Wed Aug 06 14:05:58 2014] [error] [client 81.19.212.44] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sat Aug 30 15:39:36 2014] [error] [client 174.36.6.76] client denied by server configuration: /home/ubuntu/OpenDirectory/public/.htpasswd
+[Sat Aug 30 15:39:36 2014] [error] [client 174.36.6.76] client denied by server configuration: /home/ubuntu/OpenDirectory/public/.htpasswd~
+[Wed Sep 03 01:04:50 2014] [error] [client 31.170.178.234] client denied by server configuration: /home/ubuntu/OpenDirectory/public/server-status
+[Fri Sep 12 00:02:39 2014] [error] [client 198.29.36.11] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Fri Sep 12 13:39:38 2014] [error] [client 89.248.160.192] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Sep 12 18:04:53 2014] [error] [client 89.248.160.192] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Sep 12 23:09:11 2014] [error] [client 62.210.78.209] Invalid URI in request GET /../ HTTP/1.1
+[Fri Sep 12 23:09:11 2014] [error] [client 62.210.78.209] Invalid URI in request GET /../root HTTP/1.1
+[Tue Sep 16 20:25:50 2014] [error] [client 89.248.171.2] Invalid URI in request GET  HTTP/1.1
+[Wed Sep 17 11:03:04 2014] [error] [client 89.248.160.192] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Wed Sep 17 19:27:13 2014] [error] [client 95.79.30.221] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Fri Sep 19 05:28:06 2014] [error] [client 66.215.157.25] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Fri Sep 19 23:07:04 2014] [error] [client 108.218.207.108] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Tue Sep 23 19:14:58 2014] [error] [client 67.240.234.199] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Sep 24 05:41:01 2014] [error] [client 138.229.29.200] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Sep 25 04:15:13 2014] [error] [client 100.4.144.236] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Sep 25 07:08:41 2014] [error] [client 93.174.93.149] Invalid URI in request GET  HTTP/1.1
+[Thu Sep 25 16:06:28 2014] [error] [client 109.235.51.42] Client sent malformed Host header, referer: () { :; }; /usr/ping -c 3 109.235.51.42
+[Thu Sep 25 20:28:07 2014] [error] [client 211.24.26.251] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Fri Sep 26 18:48:02 2014] [error] [client 61.160.224.130] request failed: error reading the headers
+[Sat Sep 27 02:00:32 2014] [error] [client 72.196.171.187] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sat Sep 27 16:16:16 2014] [error] [client 216.235.108.142] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Sep 28 03:50:01 2014] [error] [client 93.174.93.149] Invalid URI in request GET  HTTP/1.1
+[Sun Sep 28 18:04:39 2014] [error] [client 186.83.66.138] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Tue Sep 30 15:25:53 2014] [error] [client 101.99.200.243] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Oct 01 23:46:05 2014] [error] [client 76.110.17.204] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Oct 02 01:41:04 2014] [error] [client 182.52.111.246] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Oct 02 01:47:35 2014] [error] [client 77.91.183.206] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Oct 02 10:09:21 2014] [error] [client 84.247.83.8] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Oct 02 13:50:59 2014] [error] [client 208.97.94.98] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Oct 02 14:02:35 2014] [error] [client 99.237.13.40] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Fri Oct 03 21:42:14 2014] [error] [client 190.153.161.130] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sat Oct 04 01:22:57 2014] [error] [client 68.63.17.141] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sat Oct 04 03:13:32 2014] [error] [client 69.193.77.187] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sat Oct 04 13:54:39 2014] [error] [client 203.177.187.199] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sat Oct 04 21:14:48 2014] [error] [client 76.14.188.228] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Oct 05 08:37:20 2014] [error] [client 210.19.254.92] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Oct 05 14:33:46 2014] [error] [client 85.94.188.165] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Mon Oct 06 09:06:17 2014] [error] [client 216.24.79.236] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Mon Oct 06 13:14:32 2014] [error] [client 75.128.107.183] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Mon Oct 06 21:49:18 2014] [error] [client 72.193.7.181] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Mon Oct 06 23:57:08 2014] [error] [client 83.166.215.176] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Tue Oct 07 01:54:58 2014] [error] [client 186.15.127.32] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Tue Oct 07 02:49:45 2014] [error] [client 83.134.96.202] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Oct 08 22:48:52 2014] [error] [client 211.24.60.236] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Oct 09 05:31:42 2014] [error] [client 183.91.24.87] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Oct 09 13:01:16 2014] [error] [client 24.165.23.221] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Fri Oct 10 00:49:40 2014] [error] [client 83.128.77.129] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Fri Oct 10 08:03:19 2014] [error] [client 63.142.218.251] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Fri Oct 10 16:00:56 2014] [error] [client 189.33.188.37] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Fri Oct 10 19:12:52 2014] [error] [client 192.186.154.187] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Sun Oct 12 10:13:12 2014] [error] [client 69.172.210.53] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Sun Oct 12 17:55:25 2014] [error] [client 93.174.93.149] Invalid URI in request GET  HTTP/1.1
+[Sun Oct 12 21:57:33 2014] [error] [client 85.230.167.52] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Tue Oct 14 14:51:26 2014] [error] [client 220.255.1.146] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Tue Oct 14 20:07:45 2014] [error] [client 24.158.15.174] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Oct 15 05:22:50 2014] [error] [client 63.142.194.101] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Oct 15 23:00:52 2014] [error] [client 87.245.166.115] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Thu Oct 16 12:46:24 2014] [error] [client 113.21.226.56] Invalid URI in request GET HTTP/1.1 HTTP/1.1
+[Fri Oct 17 13:02:51 2014] [error] [client 70.167.235.22] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Oct 19 00:44:42 2014] [error] [client 212.108.204.164] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Oct 19 17:02:21 2014] [error] [client 62.210.140.25] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /w00tw00t.at.ISC.SANS.DFind:)
+[Mon Oct 20 11:53:32 2014] [error] [client 189.238.231.85] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Mon Oct 20 21:24:14 2014] [error] [client 190.147.81.16] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Tue Oct 21 12:18:09 2014] [error] [client 201.208.21.203] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Tue Oct 21 18:56:15 2014] [error] [client 110.74.222.122] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Fri Oct 24 08:27:17 2014] [error] [client 187.18.130.238] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Fri Oct 24 23:41:36 2014] [error] [client 97.88.214.168] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Oct 26 02:44:55 2014] [error] [client 211.24.19.60] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Oct 26 11:21:47 2014] [error] [client 211.24.25.191] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Oct 26 13:28:47 2014] [error] [client 199.96.95.158] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Tue Oct 28 02:36:09 2014] [error] [client 95.183.244.244] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Tue Oct 28 15:10:15 2014] [error] [client 72.93.43.235] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Oct 29 00:19:01 2014] [error] [client 54.200.89.163] Invalid URI in request GET g  test HTTP/1.1
+[Wed Oct 29 01:20:41 2014] [error] [client 72.177.4.179] Premature end of script headers: root, referer: http://opendirectory.me/root/images

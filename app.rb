@@ -3,6 +3,7 @@ require 'sinatra'
 require 'mongoid'
 require 'pry'
 require 'net/http'
+require 'json'
 #Mongoid.load!("mongoid.yml")
 Mongoid.load!("./mongoid.yml", :production)
 require_relative './sub_directory'
@@ -43,11 +44,11 @@ get '/root/*' do
 	leafz = []
 	black_hole.each do |subdir|
 		subdir.leafs.each do |leaf|
-			leafz << leaf
+                  leafz << leaf
 		end
 	end
 	leaf_collection = leafz.sort_by { |hsh| hsh[:timestamp] || Time.new(2012)}.reverse
-	erb :subdir, :locals => {:name => sd.name,:path => sd.path,:parents => sd.parents,:children => sd.children, :url_frag => sd.path.split("/"), :leafs => leaf_collection}
+        erb :subdir, :locals => {:name => sd.name,:path => sd.path,:parents => sd.parents,:children => sd.children, :url_frag => sd.path.split("/"), :leafs => leaf_collection}
 end
 
 post '/root/*-upload' do
@@ -66,13 +67,13 @@ post '/root/*-upload' do
 end
 
 post '/root/*-link' do
-	path = params[:splat][0]
-	uri = params["link"]
-	lf = Leaf.new(type: 'link' , filename: uri, description: params["description"], timestamp: Time.now)
-	node = SubDirectory.where(path: path).first
-	lf.sub_directory = node
-	lf.save!
-	redirect '/root/' + path
+  path = params[:splat][0]
+  uri = params["link"]
+  lf = Leaf.new(type: 'link' , filename: uri, description: params["description"],timestamp: Time.now, embed: JSON.parse(Net::HTTP.get_response(URI.parse("http://opendirectory.me:8081/parse?content=#{uri}")).body).first)
+  node = SubDirectory.where(path: path).first
+  lf.sub_directory = node
+  lf.save!
+  redirect '/root/' + path
 end
 
 def make_absolute( href, root )

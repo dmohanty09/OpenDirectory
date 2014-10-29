@@ -20,7 +20,13 @@
             	<div class="col-lg-6">
             		<div style="text-align:center;" class="list-group-item feed-panel">
 					<%= leaf.description %><br/>
-            		<img style="box-shadow: 0 0 5px #888;max-height:256px;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>"/>
+            		<% if ! leaf.embed %>
+                          <img style="box-shadow: 0 0 5px #888;max-height:256px;max-width:512px;" src="/uploads/<%= leaf.id %>_<%= leaf.filename %>" alt="<%= leaf.id %>_<%= leaf.filename %>"/>
+                        <% elsif ! leaf.embed['raw'].nil? %>
+                          <div class="embed_html" data-embed="<%= Rack::Utils.escape_html leaf.embed['raw']['html'] %>" />
+                        <% else %>
+                        <img style="box-shadow: 0 0 5px #888;max-height:256px;max-width:512px;" src="<%= leaf.embed['thumbnail_url'] %>"/>
+                        <% end %>
                 		<br/>
                 		<a href="/root/<%= leaf.sub_directory.path %>">/root/<%= leaf.sub_directory.path %></a>
             		</div>
@@ -29,3 +35,8 @@
         <% end %>
 	</div>
 </div>
+<script>
+  $(function(){
+    $(".embed_html").each(function(){ $(this).html($(this).attr('data-embed')) });
+  });
+</script>

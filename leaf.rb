@@ -5,4 +5,5 @@ class Leaf
   field :filename, type: String
   field :type, type: String
   field :timestamp, type: Time
+  field :embed, type: Hash
 end
