@@ -196,3 +196,6 @@
 [Tue Oct 28 15:10:15 2014] [error] [client 72.93.43.235] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
 [Wed Oct 29 00:19:01 2014] [error] [client 54.200.89.163] Invalid URI in request GET g  test HTTP/1.1
 [Wed Oct 29 01:20:41 2014] [error] [client 72.177.4.179] Premature end of script headers: root, referer: http://opendirectory.me/root/images
+[Wed Oct 29 05:52:58 2014] [error] [client 8.34.75.10] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Oct 29 06:35:57 2014] [error] [client 218.188.145.18] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Wed Oct 29 23:24:48 2014] [error] [client 207.255.178.175] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi

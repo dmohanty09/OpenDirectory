@@ -56,5 +56,13 @@ margin-bottom: 0px;
 }
 
 .col-lg-6 {
- width: auto; 
+ width: 50%;
+}
+
+.subdir-list {
+  box-shadow: 0 0 5px #888;
+}
+
+iframe {
+  max-width: 100%;
 }

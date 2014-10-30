@@ -5603,7 +5603,7 @@ a.thumbnail:focus {
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 5px #888;
+  /*box-shadow: 0 0 5px #888;*/
 }
 
 .list-group-item:first-child {
